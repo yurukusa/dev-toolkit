@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dev Toolkit — 17 Free Developer Tools</title>
+<meta name="description" content="17 free developer tools. JSON formatter, regex tester, color palette, font pairing, GitHub stats, npm health check, and more. No signup, no ads, no tracking.">
+<meta property="og:title" content="Dev Toolkit — 17 Free Developer Tools">
+<meta property="og:description" content="JSON, regex, colors, fonts, GitHub stats, npm health, cron, diff, and more. All free.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yurukusa.github.io/dev-toolkit/">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0a0a0a;color:#e6e6e6;min-height:100vh}
+.container{max-width:960px;margin:0 auto;padding:24px 16px}
+.hero{text-align:center;padding:48px 0 32px}
+.hero h1{font-size:2.2rem;color:#fff;margin-bottom:10px}
+.hero .tagline{font-size:1.1rem;color:#888;margin-bottom:6px}
+.hero .meta{font-size:0.85rem;color:#555}
+
+.search-row{max-width:480px;margin:0 auto 24px}
+.search-row input{width:100%;padding:12px 18px;border-radius:10px;border:1px solid #333;background:#161616;color:#fff;font-size:1rem;outline:none}
+.search-row input:focus{border-color:#3b82f6}
+
+.filters{display:flex;gap:8px;justify-content:center;margin-bottom:28px;flex-wrap:wrap}
+.filter-btn{padding:7px 14px;border-radius:8px;border:1px solid #333;background:#161616;color:#888;font-size:0.8rem;cursor:pointer;font-weight:600}
+.filter-btn.active{background:#1a2744;color:#4da6ff;border-color:#2a4a7a}
+.filter-btn:hover:not(.active){background:#1c1c1c}
+
+.tool-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-bottom:40px}
+.tool-card{background:#161616;border:1px solid #222;border-radius:12px;padding:20px;transition:border-color 0.2s,transform 0.2s;text-decoration:none;display:block}
+.tool-card:hover{border-color:#3b82f6;transform:translateY(-2px)}
+.tool-card .icon{font-size:1.4rem;margin-bottom:8px}
+.tool-card h3{font-size:1rem;color:#fff;margin-bottom:6px}
+.tool-card p{font-size:0.82rem;color:#888;line-height:1.5}
+.tool-card .tag{display:inline-block;font-size:0.68rem;color:#555;background:#1a1a1a;padding:3px 8px;border-radius:10px;margin-top:8px}
+
+.cta{text-align:center;background:#0d1b2a;border:1px solid #1b3a5c;border-radius:14px;padding:28px;margin-bottom:32px}
+.cta h2{color:#4da6ff;margin-bottom:8px;font-size:1.2rem}
+.cta p{color:#a0c4e8;font-size:0.88rem;margin-bottom:16px}
+.cta a{display:inline-block;padding:10px 24px;background:#3b82f6;color:#fff;border-radius:10px;text-decoration:none;font-weight:700;font-size:0.9rem}
+.cta a:hover{background:#2563eb}
+
+.principles{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:32px}
+.principle{text-align:center;padding:16px}
+.principle .icon{font-size:1.5rem;margin-bottom:8px}
+.principle h3{font-size:0.9rem;color:#ccc;margin-bottom:4px}
+.principle p{font-size:0.78rem;color:#666}
+
+footer{text-align:center;padding:32px 0;color:#555;font-size:0.78rem;border-top:1px solid #1a1a1a}
+footer a{color:#666;text-decoration:none}
+footer a:hover{color:#999}
+@media(max-width:600px){.tool-grid{grid-template-columns:1fr}.principles{grid-template-columns:1fr}.hero h1{font-size:1.6rem}}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="hero">
+  <h1>Dev Toolkit</h1>
+  <div class="tagline">17 free tools for developers and designers</div>
+  <div class="meta">No signup. No ads. No tracking. Single HTML files.</div>
+</div>
+
+<div class="search-row">
+  <input type="text" id="search" placeholder="Search tools..." oninput="filterTools()">
+</div>
+
+<div class="filters" id="filters"></div>
+
+<div class="tool-grid" id="toolGrid"></div>
+
+<div class="principles">
+  <div class="principle">
+    <div class="icon">0</div>
+    <h3>Zero Dependencies</h3>
+    <p>Every tool is a single HTML file. No npm, no build step.</p>
+  </div>
+  <div class="principle">
+    <div class="icon">&lt;/&gt;</div>
+    <h3>Open Source</h3>
+    <p>All tools on GitHub. Fork, modify, self-host.</p>
+  </div>
+  <div class="principle">
+    <div class="icon">~</div>
+    <h3>Privacy First</h3>
+    <p>Everything runs in your browser. No data leaves your machine.</p>
+  </div>
+</div>
+
+<div class="cta">
+  <h2>Claude Code User?</h2>
+  <p>We also have 106 CLI analysis tools for Claude Code power users.</p>
+  <a href="https://yurukusa.github.io/cc-toolkit/">Browse cc-toolkit</a>
+</div>
+
+</div>
+
+<footer>
+  <a href="https://github.com/yurukusa">GitHub</a> ·
+  Built by <a href="https://github.com/yurukusa">yurukusa</a>
+</footer>
+
+<script>
+const TOOLS=[
+  {name:'JSON Format',desc:'Beautify, validate, minify JSON. Tree view, stats, download.',url:'https://yurukusa.github.io/json-format/',cat:'code',icon:'{ }'},
+  {name:'Regex Test',desc:'Live regex tester. Match highlighting, capture groups, 12 common patterns.',url:'https://yurukusa.github.io/regex-test/',cat:'code',icon:'.*'},
+  {name:'Diff Text',desc:'Compare two texts side by side. Line diff and word-level diff.',url:'https://yurukusa.github.io/diff-text/',cat:'code',icon:'+/-'},
+  {name:'Cron Explain',desc:'Paste a cron expression. Get plain English + next 10 run times.',url:'https://yurukusa.github.io/cron-explain/',cat:'code',icon:'0 9 *'},
+  {name:'Word Count',desc:'Word/char/sentence count. Reading time, readability score, keywords.',url:'https://yurukusa.github.io/word-count/',cat:'writing',icon:'Aa'},
+  {name:'Title Score',desc:'Blog title analyzer. 16 scoring elements based on research.',url:'https://yurukusa.github.io/title-score/',cat:'writing',icon:'H1'},
+  {name:'README Score',desc:'README quality checker. 16 best-practice checks with grade A-F.',url:'https://yurukusa.github.io/readme-score/',cat:'writing',icon:'MD'},
+  {name:'Color Palette',desc:'Pick a color, get 6 harmony palettes. WCAG contrast, CSS/Tailwind export.',url:'https://yurukusa.github.io/color-palette/',cat:'design',icon:'#c'},
+  {name:'Font Pair',desc:'20 curated Google Font pairings. Live preview, CSS export.',url:'https://yurukusa.github.io/font-pair/',cat:'design',icon:'Ff'},
+  {name:'CSS Shadow',desc:'Visual box-shadow generator. Multi-layer, 10 presets, live preview.',url:'https://yurukusa.github.io/css-shadow/',cat:'design',icon:'[]'},
+  {name:'gh-stats',desc:'GitHub profile dashboard. Repos, stars, languages, activity timeline.',url:'https://yurukusa.github.io/gh-stats/',cat:'data',icon:'GH'},
+  {name:'npm Health',desc:'npm package health checker. 9 metrics, download trends, grade A-F.',url:'https://yurukusa.github.io/npm-health/',cat:'data',icon:'npm'},
+  {name:'dev.to Stats',desc:'dev.to article performance dashboard. Views, tags, posting patterns.',url:'https://yurukusa.github.io/devto-stats/',cat:'data',icon:'DEV'},
+  {name:'LLM Price',desc:'Compare AI model pricing across 28+ models and 7 providers.',url:'https://yurukusa.github.io/llm-price/',cat:'ai',icon:'$'},
+  {name:'Prompt Price',desc:'Paste text, see API cost across 28+ models. Token calculator.',url:'https://yurukusa.github.io/prompt-price/',cat:'ai',icon:'T$'},
+  {name:'Model Picker',desc:'4-question quiz to find the right AI model for your use case.',url:'https://yurukusa.github.io/model-picker/',cat:'ai',icon:'?M'},
+  {name:'AI ROI Calc',desc:'AI vs human cost comparison. Annual savings and ROI calculator.',url:'https://yurukusa.github.io/ai-roi-calc/',cat:'ai',icon:'ROI'},
+];
+
+const CATEGORIES=[
+  {id:'all',label:'All (17)'},
+  {id:'code',label:'Code'},
+  {id:'writing',label:'Writing'},
+  {id:'design',label:'Design'},
+  {id:'data',label:'Data'},
+  {id:'ai',label:'AI / LLM'},
+];
+
+let activeFilter='all';
+
+function renderFilters(){
+  document.getElementById('filters').innerHTML=CATEGORIES.map(c=>{
+    const count=c.id==='all'?TOOLS.length:TOOLS.filter(t=>t.cat===c.id).length;
+    return`<button class="filter-btn ${c.id===activeFilter?'active':''}" onclick="setFilter('${c.id}')">${c.label}</button>`;
+  }).join('');
+}
+
+function setFilter(id){
+  activeFilter=id;
+  renderFilters();
+  filterTools();
+}
+
+function filterTools(){
+  const query=document.getElementById('search').value.toLowerCase();
+  const filtered=TOOLS.filter(t=>{
+    const matchCat=activeFilter==='all'||t.cat===activeFilter;
+    const matchSearch=!query||t.name.toLowerCase().includes(query)||t.desc.toLowerCase().includes(query);
+    return matchCat&&matchSearch;
+  });
+
+  document.getElementById('toolGrid').innerHTML=filtered.map(t=>`
+    <a class="tool-card" href="${t.url}" target="_blank">
+      <div class="icon">${t.icon}</div>
+      <h3>${t.name}</h3>
+      <p>${t.desc}</p>
+      <span class="tag">${t.cat}</span>
+    </a>
+  `).join('')||'<div style="text-align:center;color:#555;grid-column:1/-1;padding:40px">No tools match your search.</div>';
+}
+
+renderFilters();
+filterTools();
+</script>
+</body>
+</html>
