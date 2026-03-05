@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**118 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**100 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,7 +8,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (47)
+### Code (38)
 
 | Tool | What it does |
 |------|-------------|
@@ -50,15 +50,8 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [API Tester](https://yurukusa.github.io/api-tester/) | Browser-based REST API client |
 | [Regex Replace](https://yurukusa.github.io/regex-replace/) | Find & replace with regex, live preview |
 | [JSON Path](https://yurukusa.github.io/json-path/) | Query JSON with JSONPath expressions |
-| [Encode Decode](https://yurukusa.github.io/encode-decode/) | URL, Base64, HTML, Hex, Binary, ROT13 |
-| [Number Base](https://yurukusa.github.io/number-base/) | Binary, hex, octal, decimal converter |
-| [Data URI](https://yurukusa.github.io/data-uri/) | Convert files to data URIs and back |
-| [Case Convert](https://yurukusa.github.io/case-convert/) | camelCase, snake_case, PascalCase, etc. |
-| [Subnet Calc](https://yurukusa.github.io/subnet-calc/) | IP subnet calculator, CIDR notation |
-| [JSON Schema](https://yurukusa.github.io/json-schema/) | Generate JSON Schema from samples |
-| [Keycode](https://yurukusa.github.io/keycode/) | JavaScript keyboard event keycode finder |
 
-### Design (46)
+### Design (37)
 
 | Tool | What it does |
 |------|-------------|
@@ -99,13 +92,6 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [CSS Specificity](https://yurukusa.github.io/css-specificity/) | Specificity calculator with compare and quiz |
 | [Color Mixer](https://yurukusa.github.io/color-mixer/) | Mix colors with RGB/HSL/CIELAB modes |
 | [CSS Reset](https://yurukusa.github.io/css-reset/) | Browse, compare, customize 8 CSS resets |
-| [Color Blind Sim](https://yurukusa.github.io/color-blind-sim/) | Simulate 8 types of color blindness |
-| [CSS Text Shadow](https://yurukusa.github.io/css-text-shadow/) | text-shadow generator, multi-layer |
-| [CSS Glass](https://yurukusa.github.io/css-glass/) | Glassmorphism generator |
-| [CSS Neumorphism](https://yurukusa.github.io/css-neumorphism/) | Soft UI shadow generator |
-| [HSL Picker](https://yurukusa.github.io/hsl-picker/) | HSL color picker with harmonies |
-| [CSS Cursor](https://yurukusa.github.io/css-cursor/) | Preview all CSS cursor types |
-| [CSS Transform](https://yurukusa.github.io/css-transform/) | Visual transform generator with presets |
 
 ### DevOps (8)
 
@@ -120,7 +106,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Meta Tags](https://yurukusa.github.io/meta-tags/) | OG/Twitter meta tag generator |
 | [QR Code](https://yurukusa.github.io/qr-code/) | Generate QR codes |
 
-### Writing & Analytics (19)
+### Writing & Analytics (17)
 
 | Tool | What it does |
 |------|-------------|
