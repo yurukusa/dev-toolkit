@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**90 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**92 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,7 +8,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (32)
+### Code (33)
 
 | Tool | What it does |
 |------|-------------|
@@ -44,8 +44,9 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Git Cheatsheet](https://yurukusa.github.io/git-cheatsheet/) | 57 Git commands with examples and danger levels |
 | [Regex Cheatsheet](https://yurukusa.github.io/regex-cheatsheet/) | 67 regex patterns with examples |
 | [HTML to JSX](https://yurukusa.github.io/html-to-jsx/) | Convert HTML to valid JSX/React syntax |
+| [Tailwind Converter](https://yurukusa.github.io/tailwind-converter/) | CSS ↔ Tailwind bidirectional converter |
 
-### Design (35)
+### Design (36)
 
 | Tool | What it does |
 |------|-------------|
@@ -82,6 +83,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [CSS Transform](https://yurukusa.github.io/css-transform/) | Visual transform generator with presets |
 | [CSS Transition](https://yurukusa.github.io/css-transition/) | Transition generator with cubic-bezier editor |
 | [CSS Variables](https://yurukusa.github.io/css-variable/) | Custom properties generator with theme builder |
+| [CSS Media Query](https://yurukusa.github.io/css-media/) | Visual media query builder with device presets |
 
 ### DevOps (8)
 
