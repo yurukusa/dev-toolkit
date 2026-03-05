@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**100 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**102 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -51,7 +51,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [JSON Viewer](https://yurukusa.github.io/json-viewer/) | Interactive JSON tree viewer with search |
 | [API Tester](https://yurukusa.github.io/api-tester/) | Browser-based REST API client |
 
-### Design (39)
+### Design (40)
 
 | Tool | What it does |
 |------|-------------|
@@ -92,6 +92,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [CSS Specificity](https://yurukusa.github.io/css-specificity/) | Specificity calculator with compare and quiz |
 | [Color Mixer](https://yurukusa.github.io/color-mixer/) | Mix colors with RGB/HSL/CIELAB modes |
 | [CSS Reset](https://yurukusa.github.io/css-reset/) | Browse, compare, customize 8 CSS resets |
+| [Color Blind Sim](https://yurukusa.github.io/color-blind-sim/) | Simulate 8 types of color blindness |
 
 ### DevOps (8)
 
@@ -106,7 +107,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Meta Tags](https://yurukusa.github.io/meta-tags/) | OG/Twitter meta tag generator |
 | [QR Code](https://yurukusa.github.io/qr-code/) | Generate QR codes |
 
-### Writing & Analytics (17)
+### Writing & Analytics (18)
 
 | Tool | What it does |
 |------|-------------|
@@ -127,6 +128,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Markdown Preview](https://yurukusa.github.io/md-preview/) | Live markdown renderer |
 | [OG Preview](https://yurukusa.github.io/og-preview/) | Social media link preview checker |
 | [Char Count](https://yurukusa.github.io/char-count/) | Character counter with platform limits |
+| [OG Preview](https://yurukusa.github.io/og-preview/) | Social media link preview checker |
 
 ## Philosophy
 
