@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dev Toolkit — 100 Free Developer Tools</title>
-<meta name="description" content="100 free developer tools. JSON, CSS, regex, color, font, image, API, and more. No signup, no ads, no tracking.">
-<meta property="og:title" content="Dev Toolkit — 100 Free Developer Tools">
+<title>Dev Toolkit — Free Developer Tools</title>
+<meta name="description" content="Free developer tools. JSON, CSS, regex, color, font, image, API, and more. No signup, no ads, no tracking. Single HTML files.">
+<meta property="og:title" content="Dev Toolkit — Free Developer Tools">
 <meta property="og:description" content="JSON, YAML, TOML, CSV, SQL, regex, colors, fonts, image resize, and more. All free.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://yurukusa.github.io/dev-toolkit/">
@@ -35,6 +35,12 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .tool-card h3{font-size:1rem;color:#fff;margin-bottom:6px}
 .tool-card p{font-size:0.82rem;color:#888;line-height:1.5}
 .tool-card .tag{display:inline-block;font-size:0.68rem;color:#555;background:#1a1a1a;padding:3px 8px;border-radius:10px;margin-top:8px}
+.tool-card.featured{border-color:#2a4a7a;background:#0d1520}
+.tool-card.featured:hover{border-color:#4da6ff}
+
+.picks{margin-bottom:32px}
+.picks h2{font-size:1.1rem;color:#4da6ff;margin-bottom:14px;font-weight:600}
+.picks .tool-grid{margin-bottom:0}
 
 .cta{text-align:center;background:#0d1b2a;border:1px solid #1b3a5c;border-radius:14px;padding:28px;margin-bottom:32px}
 .cta h2{color:#4da6ff;margin-bottom:8px;font-size:1.2rem}
@@ -59,7 +65,7 @@ footer a:hover{color:#999}
 
 <div class="hero">
   <h1>Dev Toolkit</h1>
-  <div class="tagline">100 free tools for developers and designers</div>
+  <div class="tagline">Free browser tools for developers and designers</div>
   <div class="meta">No signup. No ads. No tracking. Single HTML files.</div>
 </div>
 
@@ -68,6 +74,11 @@ footer a:hover{color:#999}
 </div>
 
 <div class="filters" id="filters"></div>
+
+<div class="picks" id="picksSection">
+  <h2>Staff Picks</h2>
+  <div class="tool-grid" id="picksGrid"></div>
+</div>
 
 <div class="tool-grid" id="toolGrid"></div>
 
@@ -125,10 +136,10 @@ const TOOLS=[
   {name:'Dep Tree',desc:'Visualize npm dependency trees. See what you install before installing.',url:'https://yurukusa.github.io/dep-tree/',cat:'data',icon:'🌳'},
   {name:'GitHub Card',desc:'Generate shareable GitHub profile cards. 6 themes, PNG download.',url:'https://yurukusa.github.io/gh-card/',cat:'data',icon:'🃏'},
   {name:'dev.to Stats',desc:'dev.to article performance dashboard. Views, tags, posting patterns.',url:'https://yurukusa.github.io/devto-stats/',cat:'data',icon:'DEV'},
-  {name:'LLM Price',desc:'Compare AI model pricing across 28+ models and 7 providers.',url:'https://yurukusa.github.io/llm-price/',cat:'ai',icon:'$'},
-  {name:'Prompt Price',desc:'Paste text, see API cost across 28+ models. Token calculator.',url:'https://yurukusa.github.io/prompt-price/',cat:'ai',icon:'T$'},
-  {name:'Model Picker',desc:'4-question quiz to find the right AI model for your use case.',url:'https://yurukusa.github.io/model-picker/',cat:'ai',icon:'?M'},
-  {name:'AI ROI Calc',desc:'AI vs human cost comparison. Annual savings and ROI calculator.',url:'https://yurukusa.github.io/ai-roi-calc/',cat:'ai',icon:'ROI'},
+  {name:'LLM Price',desc:'Compare AI model pricing across 28+ models and 7 providers.',url:'https://yurukusa.github.io/llm-price/',cat:'ai',icon:'$',featured:true},
+  {name:'Prompt Price',desc:'Paste text, see API cost across 28+ models. Token calculator.',url:'https://yurukusa.github.io/prompt-price/',cat:'ai',icon:'T$',featured:true},
+  {name:'Model Picker',desc:'4-question quiz to find the right AI model for your use case.',url:'https://yurukusa.github.io/model-picker/',cat:'ai',icon:'?M',featured:true},
+  {name:'AI ROI Calc',desc:'AI vs human cost comparison. Annual savings and ROI calculator.',url:'https://yurukusa.github.io/ai-roi-calc/',cat:'ai',icon:'ROI',featured:true},
   {name:'Base64 Tool',desc:'Encode/decode Base64, URL, HTML entities. JWT token decoder.',url:'https://yurukusa.github.io/base64-tool/',cat:'code',icon:'B64'},
   {name:'Hash Gen',desc:'Generate SHA-1, SHA-256, SHA-512 hashes. File hashing, hash compare.',url:'https://yurukusa.github.io/hash-gen/',cat:'code',icon:'#h'},
   {name:'Timestamp',desc:'Unix timestamp converter. ISO 8601, relative time, time diff.',url:'https://yurukusa.github.io/timestamp-tool/',cat:'code',icon:'⏱'},
@@ -171,7 +182,7 @@ const TOOLS=[
   {name:'CSS Clip-Path',desc:'Visual clip-path generator. Drag points, presets, circle/ellipse/inset/polygon.',url:'https://yurukusa.github.io/css-clip-path/',cat:'design',icon:'✂'},
   {name:'Placeholder Image',desc:'Generate placeholder images. Custom size, colors, text. PNG/JPEG/WebP download.',url:'https://yurukusa.github.io/placeholder-img/',cat:'design',icon:'▧'},
   {name:'JSON → TypeScript',desc:'Generate TypeScript interfaces from JSON. Smart type inference, nested objects.',url:'https://yurukusa.github.io/json-to-ts/',cat:'code',icon:'TS'},
-  {name:'Color Blind Sim',desc:'Simulate 8 types of color blindness on any image. Accessibility testing.',url:'https://yurukusa.github.io/color-blind-sim/',cat:'design',icon:'👁'},
+  {name:'Color Blind Sim',desc:'Simulate 8 types of color blindness on any image. Accessibility testing.',url:'https://yurukusa.github.io/color-blind-sim/',cat:'design',icon:'👁',featured:true},
   {name:'OG Preview',desc:'Preview how URLs look on Twitter, Facebook, LinkedIn, Slack, Discord.',url:'https://yurukusa.github.io/og-preview/',cat:'data',icon:'OG'},
   {name:'CSS Text Shadow',desc:'Visual text-shadow generator. Multi-layer, 12 presets, live preview.',url:'https://yurukusa.github.io/css-text-shadow/',cat:'design',icon:'Ts'},
   {name:'Regex Replace',desc:'Find & replace with regex. Live preview, match highlights, backreferences.',url:'https://yurukusa.github.io/regex-replace/',cat:'code',icon:'s/'},
@@ -184,7 +195,7 @@ const TOOLS=[
   {name:'Number Base',desc:'Convert binary, hex, octal, decimal. Bit visualization, two\'s complement.',url:'https://yurukusa.github.io/number-base/',cat:'code',icon:'0x'},
   {name:'Data URI',desc:'Convert files to data URIs. Images, SVG, CSS. Copy as background or img tag.',url:'https://yurukusa.github.io/data-uri/',cat:'code',icon:'d:'},
   {name:'Case Convert',desc:'camelCase, snake_case, PascalCase, kebab-case and 10+ naming conventions.',url:'https://yurukusa.github.io/case-convert/',cat:'code',icon:'aA'},
-  {name:'Subnet Calc',desc:'IP subnet calculator. Network, broadcast, host range, CIDR, visual breakdown.',url:'https://yurukusa.github.io/subnet-calc/',cat:'code',icon:'IP'},
+  {name:'Subnet Calc',desc:'IP subnet calculator. Network, broadcast, host range, CIDR, visual breakdown.',url:'https://yurukusa.github.io/subnet-calc/',cat:'code',icon:'IP',featured:true},
   {name:'JSON Schema',desc:'Generate JSON Schema from samples. Type inference, validation, multiple drafts.',url:'https://yurukusa.github.io/json-schema/',cat:'code',icon:'{}'},
   {name:'Keycode',desc:'Press any key to see keyCode, key, code, which. Clipboard copy, history.',url:'https://yurukusa.github.io/keycode/',cat:'code',icon:'⌨'},
   {name:'CSS Cursor',desc:'Preview all 37 CSS cursor types. Click to copy, live test area.',url:'https://yurukusa.github.io/css-cursor/',cat:'design',icon:'↗'},
@@ -194,7 +205,7 @@ const TOOLS=[
   {name:'CSS Transition',desc:'Visual transition generator. Duration, delay, cubic-bezier editor. 10 presets.',url:'https://yurukusa.github.io/css-transition/',cat:'design',icon:'→→'},
   {name:'HTML to JSX',desc:'Convert HTML to valid JSX/React. class→className, inline style objects.',url:'https://yurukusa.github.io/html-to-jsx/',cat:'code',icon:'<J>'},
   {name:'CSS Variables',desc:'Custom properties generator. Theme builder, 6 starter themes, 4 export formats.',url:'https://yurukusa.github.io/css-variable/',cat:'design',icon:'--v'},
-  {name:'Tailwind Converter',desc:'CSS ↔ Tailwind bidirectional converter. 200+ utilities, spacing scale.',url:'https://yurukusa.github.io/tailwind-converter/',cat:'code',icon:'TW'},
+  {name:'Tailwind Converter',desc:'CSS ↔ Tailwind bidirectional converter. 200+ utilities, spacing scale.',url:'https://yurukusa.github.io/tailwind-converter/',cat:'code',icon:'TW',featured:true},
   {name:'CSS Media Query',desc:'Visual media query builder. 25 device/framework presets, breakpoint visualizer.',url:'https://yurukusa.github.io/css-media/',cat:'design',icon:'@m'},
   {name:'HTML Minifier',desc:'Minify & beautify HTML. 8 options, inline CSS/JS minification, statistics.',url:'https://yurukusa.github.io/html-minifier/',cat:'code',icon:'</>'},
   {name:'CSS Specificity',desc:'Specificity calculator. Compare selectors, quiz mode, :where()/:is() support.',url:'https://yurukusa.github.io/css-specificity/',cat:'design',icon:'#.a'},
@@ -207,7 +218,7 @@ const TOOLS=[
 ];
 
 const CATEGORIES=[
-  {id:'all',label:'All (100)'},
+  {id:'all',label:'All'},
   {id:'code',label:'Code'},
   {id:'writing',label:'Writing'},
   {id:'design',label:'Design'},
@@ -230,6 +241,15 @@ function setFilter(id){
   filterTools();
 }
 
+function renderCard(t){
+  return`<a class="tool-card${t.featured?' featured':''}" href="${t.url}" target="_blank">
+    <div class="icon">${t.icon}</div>
+    <h3>${t.name}</h3>
+    <p>${t.desc}</p>
+    <span class="tag">${t.cat}</span>
+  </a>`;
+}
+
 function filterTools(){
   const query=document.getElementById('search').value.toLowerCase();
   const filtered=TOOLS.filter(t=>{
@@ -238,14 +258,20 @@ function filterTools(){
     return matchCat&&matchSearch;
   });
 
-  document.getElementById('toolGrid').innerHTML=filtered.map(t=>`
-    <a class="tool-card" href="${t.url}" target="_blank">
-      <div class="icon">${t.icon}</div>
-      <h3>${t.name}</h3>
-      <p>${t.desc}</p>
-      <span class="tag">${t.cat}</span>
-    </a>
-  `).join('')||'<div style="text-align:center;color:#555;grid-column:1/-1;padding:40px">No tools match your search.</div>';
+  const picks=filtered.filter(t=>t.featured);
+  const rest=filtered.filter(t=>!t.featured);
+  const picksSection=document.getElementById('picksSection');
+  const picksGrid=document.getElementById('picksGrid');
+
+  if(picks.length>0&&!query){
+    picksSection.style.display='';
+    picksGrid.innerHTML=picks.map(renderCard).join('');
+  }else{
+    picksSection.style.display='none';
+  }
+
+  const all=query?filtered:rest;
+  document.getElementById('toolGrid').innerHTML=all.map(renderCard).join('')||'<div style="text-align:center;color:#555;grid-column:1/-1;padding:40px">No tools match your search.</div>';
 }
 
 renderFilters();
