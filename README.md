@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**60 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**61 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -31,13 +31,14 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [SQL Format](https://yurukusa.github.io/sql-format/) | Beautify + minify SQL queries |
 | [Markdown Table](https://yurukusa.github.io/markdown-table/) | Visual editor → formatted markdown |
 
-### Design (19)
+### Design (20)
 
 | Tool | What it does |
 |------|-------------|
 | [Color Palette](https://yurukusa.github.io/color-palette/) | 6 harmony schemes, WCAG contrast |
 | [Color Convert](https://yurukusa.github.io/color-convert/) | HEX ↔ RGB ↔ HSL ↔ HSB ↔ CMYK |
 | [Font Pair](https://yurukusa.github.io/font-pair/) | 20 Google Font pairings |
+| [Font Preview](https://yurukusa.github.io/font-preview/) | Browse 1500+ Google Fonts |
 | [CSS Shadow](https://yurukusa.github.io/css-shadow/) | Box-shadow generator |
 | [CSS Gradient](https://yurukusa.github.io/css-gradient/) | Linear/radial gradient builder |
 | [CSS Flex](https://yurukusa.github.io/css-flex/) | Flexbox playground |
