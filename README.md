@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**70 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**72 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,7 +8,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (20)
+### Code (21)
 
 | Tool | What it does |
 |------|-------------|
@@ -32,8 +32,9 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [SQL Format](https://yurukusa.github.io/sql-format/) | Beautify + minify SQL queries |
 | [Markdown Table](https://yurukusa.github.io/markdown-table/) | Visual editor → formatted markdown |
 | [JSON → TypeScript](https://yurukusa.github.io/json-to-ts/) | Generate TS interfaces from JSON |
+| [Regex Replace](https://yurukusa.github.io/regex-replace/) | Find & replace with regex, live preview |
 
-### Design (27)
+### Design (28)
 
 | Tool | What it does |
 |------|-------------|
@@ -63,6 +64,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Placeholder Image](https://yurukusa.github.io/placeholder-img/) | Custom placeholder image generator |
 | [Color Blind Sim](https://yurukusa.github.io/color-blind-sim/) | Simulate 8 types of color blindness |
 | [CSS Text Shadow](https://yurukusa.github.io/css-text-shadow/) | text-shadow generator, multi-layer |
+| [CSS Glass](https://yurukusa.github.io/css-glass/) | Glassmorphism generator |
 
 ### DevOps (8)
 
