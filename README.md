@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**108 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**110 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,7 +8,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (40)
+### Code (41)
 
 | Tool | What it does |
 |------|-------------|
@@ -50,8 +50,9 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [API Tester](https://yurukusa.github.io/api-tester/) | Browser-based REST API client |
 | [Regex Replace](https://yurukusa.github.io/regex-replace/) | Find & replace with regex, live preview |
 | [JSON Path](https://yurukusa.github.io/json-path/) | Query JSON with JSONPath expressions |
+| [Encode Decode](https://yurukusa.github.io/encode-decode/) | URL, Base64, HTML, Hex, Binary, ROT13 |
 
-### Design (43)
+### Design (44)
 
 | Tool | What it does |
 |------|-------------|
@@ -96,6 +97,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [CSS Text Shadow](https://yurukusa.github.io/css-text-shadow/) | text-shadow generator, multi-layer |
 | [CSS Glass](https://yurukusa.github.io/css-glass/) | Glassmorphism generator |
 | [CSS Neumorphism](https://yurukusa.github.io/css-neumorphism/) | Soft UI shadow generator |
+| [HSL Picker](https://yurukusa.github.io/hsl-picker/) | HSL color picker with harmonies |
 
 ### DevOps (8)
 
