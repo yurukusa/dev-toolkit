@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**82 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**84 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,7 +8,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (28)
+### Code (29)
 
 | Tool | What it does |
 |------|-------------|
@@ -40,8 +40,9 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Case Convert](https://yurukusa.github.io/case-convert/) | camelCase, snake_case, PascalCase, etc. |
 | [Subnet Calc](https://yurukusa.github.io/subnet-calc/) | IP subnet calculator, CIDR notation |
 | [JSON Schema](https://yurukusa.github.io/json-schema/) | Generate JSON Schema from samples |
+| [Keycode](https://yurukusa.github.io/keycode/) | JavaScript keyboard event keycode finder |
 
-### Design (31)
+### Design (32)
 
 | Tool | What it does |
 |------|-------------|
@@ -74,6 +75,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [CSS Glass](https://yurukusa.github.io/css-glass/) | Glassmorphism generator |
 | [CSS Neumorphism](https://yurukusa.github.io/css-neumorphism/) | Soft UI shadow generator |
 | [HSL Picker](https://yurukusa.github.io/hsl-picker/) | HSL color picker with harmonies |
+| [CSS Cursor](https://yurukusa.github.io/css-cursor/) | Preview all CSS cursor types |
 
 ### DevOps (8)
 
