@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**110 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**112 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,7 +8,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (41)
+### Code (43)
 
 | Tool | What it does |
 |------|-------------|
@@ -51,6 +51,8 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Regex Replace](https://yurukusa.github.io/regex-replace/) | Find & replace with regex, live preview |
 | [JSON Path](https://yurukusa.github.io/json-path/) | Query JSON with JSONPath expressions |
 | [Encode Decode](https://yurukusa.github.io/encode-decode/) | URL, Base64, HTML, Hex, Binary, ROT13 |
+| [Number Base](https://yurukusa.github.io/number-base/) | Binary, hex, octal, decimal converter |
+| [Data URI](https://yurukusa.github.io/data-uri/) | Convert files to data URIs and back |
 
 ### Design (44)
 
