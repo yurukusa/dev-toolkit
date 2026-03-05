@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**68 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**70 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -33,7 +33,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Markdown Table](https://yurukusa.github.io/markdown-table/) | Visual editor → formatted markdown |
 | [JSON → TypeScript](https://yurukusa.github.io/json-to-ts/) | Generate TS interfaces from JSON |
 
-### Design (26)
+### Design (27)
 
 | Tool | What it does |
 |------|-------------|
@@ -62,6 +62,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [CSS Clip-Path](https://yurukusa.github.io/css-clip-path/) | Visual clip-path generator |
 | [Placeholder Image](https://yurukusa.github.io/placeholder-img/) | Custom placeholder image generator |
 | [Color Blind Sim](https://yurukusa.github.io/color-blind-sim/) | Simulate 8 types of color blindness |
+| [CSS Text Shadow](https://yurukusa.github.io/css-text-shadow/) | text-shadow generator, multi-layer |
 
 ### DevOps (8)
 
@@ -76,7 +77,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Meta Tags](https://yurukusa.github.io/meta-tags/) | OG/Twitter meta tag generator |
 | [QR Code](https://yurukusa.github.io/qr-code/) | Generate QR codes |
 
-### Writing & Analytics (15)
+### Writing & Analytics (16)
 
 | Tool | What it does |
 |------|-------------|
@@ -95,6 +96,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [AI ROI Calc](https://yurukusa.github.io/ai-roi-calc/) | AI investment calculator |
 | [Dev.to Stats](https://yurukusa.github.io/devto-stats/) | Article analytics |
 | [Markdown Preview](https://yurukusa.github.io/md-preview/) | Live markdown renderer |
+| [OG Preview](https://yurukusa.github.io/og-preview/) | Social media link preview checker |
 
 ## Philosophy
 
