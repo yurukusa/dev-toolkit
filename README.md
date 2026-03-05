@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**74 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**76 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,7 +8,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (22)
+### Code (23)
 
 | Tool | What it does |
 |------|-------------|
@@ -34,6 +34,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [JSON → TypeScript](https://yurukusa.github.io/json-to-ts/) | Generate TS interfaces from JSON |
 | [Regex Replace](https://yurukusa.github.io/regex-replace/) | Find & replace with regex, live preview |
 | [JSON Path](https://yurukusa.github.io/json-path/) | Query JSON with JSONPath expressions |
+| [Encode Decode](https://yurukusa.github.io/encode-decode/) | URL, Base64, HTML, Hex, Binary, ROT13 |
 
 ### Design (30)
 
@@ -81,7 +82,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Meta Tags](https://yurukusa.github.io/meta-tags/) | OG/Twitter meta tag generator |
 | [QR Code](https://yurukusa.github.io/qr-code/) | Generate QR codes |
 
-### Writing & Analytics (16)
+### Writing & Analytics (17)
 
 | Tool | What it does |
 |------|-------------|
@@ -101,6 +102,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Dev.to Stats](https://yurukusa.github.io/devto-stats/) | Article analytics |
 | [Markdown Preview](https://yurukusa.github.io/md-preview/) | Live markdown renderer |
 | [OG Preview](https://yurukusa.github.io/og-preview/) | Social media link preview checker |
+| [Char Count](https://yurukusa.github.io/char-count/) | Character counter with platform limits |
 
 ## Philosophy
 
