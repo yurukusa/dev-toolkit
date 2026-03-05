@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**62 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**64 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,11 +8,12 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (18)
+### Code (19)
 
 | Tool | What it does |
 |------|-------------|
 | [JSON Format](https://yurukusa.github.io/json-format/) | Beautify, validate, minify, tree view |
+| [JSON Diff](https://yurukusa.github.io/json-diff/) | Compare two JSON objects |
 | [Regex Test](https://yurukusa.github.io/regex-test/) | Live matching, capture groups, 12 presets |
 | [Diff Text](https://yurukusa.github.io/diff-text/) | Side-by-side line + word diff |
 | [Cron Explain](https://yurukusa.github.io/cron-explain/) | Plain English + next 10 run times |
@@ -31,7 +32,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [SQL Format](https://yurukusa.github.io/sql-format/) | Beautify + minify SQL queries |
 | [Markdown Table](https://yurukusa.github.io/markdown-table/) | Visual editor → formatted markdown |
 
-### Design (21)
+### Design (22)
 
 | Tool | What it does |
 |------|-------------|
@@ -56,7 +57,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Image Resize](https://yurukusa.github.io/image-resize/) | Resize in browser, keep ratio |
 | [Emoji Picker](https://yurukusa.github.io/emoji-picker/) | Search and copy emoji |
 | [Color Extract](https://yurukusa.github.io/color-extract/) | Extract palette from images |
-| [Font Preview](https://yurukusa.github.io/font-preview/) | Browse 1500+ Google Fonts |
+| [Contrast Check](https://yurukusa.github.io/contrast-check/) | WCAG color contrast checker |
 
 ### DevOps (8)
 
