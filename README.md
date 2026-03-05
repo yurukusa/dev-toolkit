@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**96 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**98 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,7 +8,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (35)
+### Code (37)
 
 | Tool | What it does |
 |------|-------------|
@@ -47,6 +47,8 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Tailwind Converter](https://yurukusa.github.io/tailwind-converter/) | CSS ↔ Tailwind bidirectional converter |
 | [HTML Minifier](https://yurukusa.github.io/html-minifier/) | Minify & beautify HTML with statistics |
 | [JS Minifier](https://yurukusa.github.io/js-minifier/) | Minify & beautify JavaScript with statistics |
+| [CSS Minifier](https://yurukusa.github.io/css-minifier/) | Minify & beautify CSS with statistics |
+| [JSON Viewer](https://yurukusa.github.io/json-viewer/) | Interactive JSON tree viewer with search |
 
 ### Design (38)
 
