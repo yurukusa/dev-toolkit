@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**102 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**104 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,7 +8,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (38)
+### Code (39)
 
 | Tool | What it does |
 |------|-------------|
@@ -50,8 +50,9 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [CSS Minifier](https://yurukusa.github.io/css-minifier/) | Minify & beautify CSS with statistics |
 | [JSON Viewer](https://yurukusa.github.io/json-viewer/) | Interactive JSON tree viewer with search |
 | [API Tester](https://yurukusa.github.io/api-tester/) | Browser-based REST API client |
+| [Regex Replace](https://yurukusa.github.io/regex-replace/) | Find & replace with regex, live preview |
 
-### Design (40)
+### Design (41)
 
 | Tool | What it does |
 |------|-------------|
@@ -93,6 +94,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Color Mixer](https://yurukusa.github.io/color-mixer/) | Mix colors with RGB/HSL/CIELAB modes |
 | [CSS Reset](https://yurukusa.github.io/css-reset/) | Browse, compare, customize 8 CSS resets |
 | [Color Blind Sim](https://yurukusa.github.io/color-blind-sim/) | Simulate 8 types of color blindness |
+| [CSS Text Shadow](https://yurukusa.github.io/css-text-shadow/) | text-shadow generator, multi-layer |
 
 ### DevOps (8)
 
