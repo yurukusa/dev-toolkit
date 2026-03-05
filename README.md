@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**92 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**94 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,7 +8,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (33)
+### Code (34)
 
 | Tool | What it does |
 |------|-------------|
@@ -45,8 +45,9 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Regex Cheatsheet](https://yurukusa.github.io/regex-cheatsheet/) | 67 regex patterns with examples |
 | [HTML to JSX](https://yurukusa.github.io/html-to-jsx/) | Convert HTML to valid JSX/React syntax |
 | [Tailwind Converter](https://yurukusa.github.io/tailwind-converter/) | CSS ↔ Tailwind bidirectional converter |
+| [HTML Minifier](https://yurukusa.github.io/html-minifier/) | Minify & beautify HTML with statistics |
 
-### Design (36)
+### Design (37)
 
 | Tool | What it does |
 |------|-------------|
@@ -84,6 +85,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [CSS Transition](https://yurukusa.github.io/css-transition/) | Transition generator with cubic-bezier editor |
 | [CSS Variables](https://yurukusa.github.io/css-variable/) | Custom properties generator with theme builder |
 | [CSS Media Query](https://yurukusa.github.io/css-media/) | Visual media query builder with device presets |
+| [CSS Specificity](https://yurukusa.github.io/css-specificity/) | Specificity calculator with compare and quiz |
 
 ### DevOps (8)
 
