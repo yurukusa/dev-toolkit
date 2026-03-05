@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**84 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**86 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,7 +8,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (29)
+### Code (30)
 
 | Tool | What it does |
 |------|-------------|
@@ -41,8 +41,9 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Subnet Calc](https://yurukusa.github.io/subnet-calc/) | IP subnet calculator, CIDR notation |
 | [JSON Schema](https://yurukusa.github.io/json-schema/) | Generate JSON Schema from samples |
 | [Keycode](https://yurukusa.github.io/keycode/) | JavaScript keyboard event keycode finder |
+| [Git Cheatsheet](https://yurukusa.github.io/git-cheatsheet/) | 57 Git commands with examples and danger levels |
 
-### Design (32)
+### Design (33)
 
 | Tool | What it does |
 |------|-------------|
@@ -76,6 +77,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [CSS Neumorphism](https://yurukusa.github.io/css-neumorphism/) | Soft UI shadow generator |
 | [HSL Picker](https://yurukusa.github.io/hsl-picker/) | HSL color picker with harmonies |
 | [CSS Cursor](https://yurukusa.github.io/css-cursor/) | Preview all CSS cursor types |
+| [CSS Transform](https://yurukusa.github.io/css-transform/) | Visual transform generator with presets |
 
 ### DevOps (8)
 
