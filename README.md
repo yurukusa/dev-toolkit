@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**104 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**106 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,7 +8,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (39)
+### Code (40)
 
 | Tool | What it does |
 |------|-------------|
@@ -32,8 +32,6 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [SQL Format](https://yurukusa.github.io/sql-format/) | Beautify + minify SQL queries |
 | [Markdown Table](https://yurukusa.github.io/markdown-table/) | Visual editor → formatted markdown |
 | [JSON → TypeScript](https://yurukusa.github.io/json-to-ts/) | Generate TS interfaces from JSON |
-| [Regex Replace](https://yurukusa.github.io/regex-replace/) | Find & replace with regex, live preview |
-| [JSON Path](https://yurukusa.github.io/json-path/) | Query JSON with JSONPath expressions |
 | [Encode Decode](https://yurukusa.github.io/encode-decode/) | URL, Base64, HTML, Hex, Binary, ROT13 |
 | [Number Base](https://yurukusa.github.io/number-base/) | Binary, hex, octal, decimal converter |
 | [Data URI](https://yurukusa.github.io/data-uri/) | Convert files to data URIs and back |
@@ -51,8 +49,9 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [JSON Viewer](https://yurukusa.github.io/json-viewer/) | Interactive JSON tree viewer with search |
 | [API Tester](https://yurukusa.github.io/api-tester/) | Browser-based REST API client |
 | [Regex Replace](https://yurukusa.github.io/regex-replace/) | Find & replace with regex, live preview |
+| [JSON Path](https://yurukusa.github.io/json-path/) | Query JSON with JSONPath expressions |
 
-### Design (41)
+### Design (42)
 
 | Tool | What it does |
 |------|-------------|
@@ -95,6 +94,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [CSS Reset](https://yurukusa.github.io/css-reset/) | Browse, compare, customize 8 CSS resets |
 | [Color Blind Sim](https://yurukusa.github.io/color-blind-sim/) | Simulate 8 types of color blindness |
 | [CSS Text Shadow](https://yurukusa.github.io/css-text-shadow/) | text-shadow generator, multi-layer |
+| [CSS Glass](https://yurukusa.github.io/css-glass/) | Glassmorphism generator |
 
 ### DevOps (8)
 
