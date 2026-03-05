@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**64 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**66 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -32,7 +32,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [SQL Format](https://yurukusa.github.io/sql-format/) | Beautify + minify SQL queries |
 | [Markdown Table](https://yurukusa.github.io/markdown-table/) | Visual editor → formatted markdown |
 
-### Design (22)
+### Design (24)
 
 | Tool | What it does |
 |------|-------------|
@@ -58,6 +58,8 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Emoji Picker](https://yurukusa.github.io/emoji-picker/) | Search and copy emoji |
 | [Color Extract](https://yurukusa.github.io/color-extract/) | Extract palette from images |
 | [Contrast Check](https://yurukusa.github.io/contrast-check/) | WCAG color contrast checker |
+| [CSS Clip-Path](https://yurukusa.github.io/css-clip-path/) | Visual clip-path generator |
+| [Placeholder Image](https://yurukusa.github.io/placeholder-img/) | Custom placeholder image generator |
 
 ### DevOps (8)
 
