@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**80 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**82 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,7 +8,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (26)
+### Code (28)
 
 | Tool | What it does |
 |------|-------------|
@@ -38,6 +38,8 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Number Base](https://yurukusa.github.io/number-base/) | Binary, hex, octal, decimal converter |
 | [Data URI](https://yurukusa.github.io/data-uri/) | Convert files to data URIs and back |
 | [Case Convert](https://yurukusa.github.io/case-convert/) | camelCase, snake_case, PascalCase, etc. |
+| [Subnet Calc](https://yurukusa.github.io/subnet-calc/) | IP subnet calculator, CIDR notation |
+| [JSON Schema](https://yurukusa.github.io/json-schema/) | Generate JSON Schema from samples |
 
 ### Design (31)
 
