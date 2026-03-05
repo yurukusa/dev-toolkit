@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**98 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**100 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,7 +8,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (37)
+### Code (38)
 
 | Tool | What it does |
 |------|-------------|
@@ -49,8 +49,9 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [JS Minifier](https://yurukusa.github.io/js-minifier/) | Minify & beautify JavaScript with statistics |
 | [CSS Minifier](https://yurukusa.github.io/css-minifier/) | Minify & beautify CSS with statistics |
 | [JSON Viewer](https://yurukusa.github.io/json-viewer/) | Interactive JSON tree viewer with search |
+| [API Tester](https://yurukusa.github.io/api-tester/) | Browser-based REST API client |
 
-### Design (38)
+### Design (39)
 
 | Tool | What it does |
 |------|-------------|
@@ -90,6 +91,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [CSS Media Query](https://yurukusa.github.io/css-media/) | Visual media query builder with device presets |
 | [CSS Specificity](https://yurukusa.github.io/css-specificity/) | Specificity calculator with compare and quiz |
 | [Color Mixer](https://yurukusa.github.io/color-mixer/) | Mix colors with RGB/HSL/CIELAB modes |
+| [CSS Reset](https://yurukusa.github.io/css-reset/) | Browse, compare, customize 8 CSS resets |
 
 ### DevOps (8)
 
