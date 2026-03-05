@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**116 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**118 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -58,7 +58,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [JSON Schema](https://yurukusa.github.io/json-schema/) | Generate JSON Schema from samples |
 | [Keycode](https://yurukusa.github.io/keycode/) | JavaScript keyboard event keycode finder |
 
-### Design (44)
+### Design (46)
 
 | Tool | What it does |
 |------|-------------|
@@ -104,6 +104,8 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [CSS Glass](https://yurukusa.github.io/css-glass/) | Glassmorphism generator |
 | [CSS Neumorphism](https://yurukusa.github.io/css-neumorphism/) | Soft UI shadow generator |
 | [HSL Picker](https://yurukusa.github.io/hsl-picker/) | HSL color picker with harmonies |
+| [CSS Cursor](https://yurukusa.github.io/css-cursor/) | Preview all CSS cursor types |
+| [CSS Transform](https://yurukusa.github.io/css-transform/) | Visual transform generator with presets |
 
 ### DevOps (8)
 
