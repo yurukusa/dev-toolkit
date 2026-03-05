@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**106 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**108 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -51,7 +51,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Regex Replace](https://yurukusa.github.io/regex-replace/) | Find & replace with regex, live preview |
 | [JSON Path](https://yurukusa.github.io/json-path/) | Query JSON with JSONPath expressions |
 
-### Design (42)
+### Design (43)
 
 | Tool | What it does |
 |------|-------------|
@@ -95,6 +95,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Color Blind Sim](https://yurukusa.github.io/color-blind-sim/) | Simulate 8 types of color blindness |
 | [CSS Text Shadow](https://yurukusa.github.io/css-text-shadow/) | text-shadow generator, multi-layer |
 | [CSS Glass](https://yurukusa.github.io/css-glass/) | Glassmorphism generator |
+| [CSS Neumorphism](https://yurukusa.github.io/css-neumorphism/) | Soft UI shadow generator |
 
 ### DevOps (8)
 
@@ -109,7 +110,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Meta Tags](https://yurukusa.github.io/meta-tags/) | OG/Twitter meta tag generator |
 | [QR Code](https://yurukusa.github.io/qr-code/) | Generate QR codes |
 
-### Writing & Analytics (18)
+### Writing & Analytics (19)
 
 | Tool | What it does |
 |------|-------------|
@@ -130,7 +131,6 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Markdown Preview](https://yurukusa.github.io/md-preview/) | Live markdown renderer |
 | [OG Preview](https://yurukusa.github.io/og-preview/) | Social media link preview checker |
 | [Char Count](https://yurukusa.github.io/char-count/) | Character counter with platform limits |
-| [OG Preview](https://yurukusa.github.io/og-preview/) | Social media link preview checker |
 
 ## Philosophy
 
