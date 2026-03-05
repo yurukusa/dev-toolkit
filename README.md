@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**57 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**58 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -68,7 +68,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Meta Tags](https://yurukusa.github.io/meta-tags/) | OG/Twitter meta tag generator |
 | [QR Code](https://yurukusa.github.io/qr-code/) | Generate QR codes |
 
-### Writing & Analytics (12)
+### Writing & Analytics (13)
 
 | Tool | What it does |
 |------|-------------|
@@ -78,6 +78,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [GitHub Stats](https://yurukusa.github.io/gh-stats/) | Repo analytics dashboard |
 | [npm Health](https://yurukusa.github.io/npm-health/) | Package health score |
 | [npm Compare](https://yurukusa.github.io/npm-compare/) | Side-by-side package comparison |
+| [GitHub Card](https://yurukusa.github.io/gh-card/) | Shareable profile card generator |
 | [LLM Price](https://yurukusa.github.io/llm-price/) | Compare AI model pricing |
 | [Prompt Price](https://yurukusa.github.io/prompt-price/) | Calculate prompt costs |
 | [Model Picker](https://yurukusa.github.io/model-picker/) | Choose the right AI model |
