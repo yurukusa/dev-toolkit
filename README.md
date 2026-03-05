@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**88 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**90 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,7 +8,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (31)
+### Code (32)
 
 | Tool | What it does |
 |------|-------------|
@@ -43,8 +43,9 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [Keycode](https://yurukusa.github.io/keycode/) | JavaScript keyboard event keycode finder |
 | [Git Cheatsheet](https://yurukusa.github.io/git-cheatsheet/) | 57 Git commands with examples and danger levels |
 | [Regex Cheatsheet](https://yurukusa.github.io/regex-cheatsheet/) | 67 regex patterns with examples |
+| [HTML to JSX](https://yurukusa.github.io/html-to-jsx/) | Convert HTML to valid JSX/React syntax |
 
-### Design (34)
+### Design (35)
 
 | Tool | What it does |
 |------|-------------|
@@ -80,6 +81,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [CSS Cursor](https://yurukusa.github.io/css-cursor/) | Preview all CSS cursor types |
 | [CSS Transform](https://yurukusa.github.io/css-transform/) | Visual transform generator with presets |
 | [CSS Transition](https://yurukusa.github.io/css-transition/) | Transition generator with cubic-bezier editor |
+| [CSS Variables](https://yurukusa.github.io/css-variable/) | Custom properties generator with theme builder |
 
 ### DevOps (8)
 
