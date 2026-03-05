@@ -1,6 +1,6 @@
 # Dev Toolkit
 
-**94 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+**96 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
@@ -8,7 +8,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 
 ## Tools
 
-### Code (34)
+### Code (35)
 
 | Tool | What it does |
 |------|-------------|
@@ -46,8 +46,9 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [HTML to JSX](https://yurukusa.github.io/html-to-jsx/) | Convert HTML to valid JSX/React syntax |
 | [Tailwind Converter](https://yurukusa.github.io/tailwind-converter/) | CSS ↔ Tailwind bidirectional converter |
 | [HTML Minifier](https://yurukusa.github.io/html-minifier/) | Minify & beautify HTML with statistics |
+| [JS Minifier](https://yurukusa.github.io/js-minifier/) | Minify & beautify JavaScript with statistics |
 
-### Design (37)
+### Design (38)
 
 | Tool | What it does |
 |------|-------------|
@@ -86,6 +87,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [CSS Variables](https://yurukusa.github.io/css-variable/) | Custom properties generator with theme builder |
 | [CSS Media Query](https://yurukusa.github.io/css-media/) | Visual media query builder with device presets |
 | [CSS Specificity](https://yurukusa.github.io/css-specificity/) | Specificity calculator with compare and quiz |
+| [Color Mixer](https://yurukusa.github.io/color-mixer/) | Mix colors with RGB/HSL/CIELAB modes |
 
 ### DevOps (8)
 
