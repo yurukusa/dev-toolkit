@@ -131,4 +131,6 @@
   <url><loc>https://yurukusa.github.io/nginx-config-gen/</loc><lastmod>2026-03-10</lastmod><priority>0.8</priority></url>
   <url><loc>https://yurukusa.github.io/docker-compose-gen/</loc><lastmod>2026-03-10</lastmod><priority>0.8</priority></url>
   <url><loc>https://yurukusa.github.io/ssh-config-gen/</loc><lastmod>2026-03-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://yurukusa.github.io/systemd-gen/</loc><lastmod>2026-03-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://yurukusa.github.io/github-profile-gen/</loc><lastmod>2026-03-10</lastmod><priority>0.8</priority></url>
 </urlset>
