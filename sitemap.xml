@@ -117,4 +117,6 @@
   <url><loc>https://yurukusa.github.io/makefile-gen/</loc><lastmod>2026-03-10</lastmod><priority>0.8</priority></url>
   <url><loc>https://yurukusa.github.io/package-json-gen/</loc><lastmod>2026-03-10</lastmod><priority>0.8</priority></url>
   <url><loc>https://yurukusa.github.io/tsconfig-gen/</loc><lastmod>2026-03-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://yurukusa.github.io/eslint-config-gen/</loc><lastmod>2026-03-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://yurukusa.github.io/prettier-config-gen/</loc><lastmod>2026-03-10</lastmod><priority>0.8</priority></url>
 </urlset>
