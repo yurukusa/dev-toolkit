@@ -253,4 +253,6 @@
   <url><loc>https://yurukusa.github.io/webrtc-signaling-flow/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
   <url><loc>https://yurukusa.github.io/js-shared-memory/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
   <url><loc>https://yurukusa.github.io/js-module-resolution/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://yurukusa.github.io/js-gc-visualizer/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://yurukusa.github.io/js-execution-context/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
 </urlset>
