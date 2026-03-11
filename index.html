@@ -425,5 +425,13 @@ function filterTools(){
 renderFilters();
 filterTools();
 </script>
+<script type="speculationrules">
+{
+  "prerender": [{
+    "where": { "selector_matches": ".tool-card" },
+    "eagerness": "moderate"
+  }]
+}
+</script>
 </body>
 </html>
