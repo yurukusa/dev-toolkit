@@ -356,4 +356,14 @@
   <url><loc>https://yurukusa.github.io/web-usb-api/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
   <url><loc>https://yurukusa.github.io/reporting-api/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
   <url><loc>https://yurukusa.github.io/performance-timeline-api/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://yurukusa.github.io/credential-management-api/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://yurukusa.github.io/web-share-target/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://yurukusa.github.io/web-app-manifest-builder/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://yurukusa.github.io/css-paint-api/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://yurukusa.github.io/css-layout-api/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://yurukusa.github.io/css-properties-values-api/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://yurukusa.github.io/text-fragment-api/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://yurukusa.github.io/web-vitals-budget/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://yurukusa.github.io/csp-evaluator/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://yurukusa.github.io/subresource-integrity-gen/</loc><lastmod>2026-03-12</lastmod><priority>0.8</priority></url>
 </urlset>
