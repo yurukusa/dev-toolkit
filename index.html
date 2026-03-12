@@ -534,13 +534,14 @@ const TOOLS=[
 
 const CATEGORIES=[
   {id:'all',label:'All'},
-  {id:'code',label:'Code'},
-  {id:'writing',label:'Writing'},
-  {id:'design',label:'Design'},
-  {id:'data',label:'Data'},
-  {id:'ai',label:'AI / LLM'},
-  {id:'security',label:'Security'},
+  {id:'js',label:'JavaScript'},
   {id:'css',label:'CSS'},
+  {id:'code',label:'Code'},
+  {id:'design',label:'Design'},
+  {id:'security',label:'Security'},
+  {id:'data',label:'Data'},
+  {id:'writing',label:'Writing'},
+  {id:'ai',label:'AI / LLM'},
 ];
 
 let activeFilter='all';
@@ -548,7 +549,7 @@ let activeFilter='all';
 function renderFilters(){
   document.getElementById('filters').innerHTML=CATEGORIES.map(c=>{
     const count=c.id==='all'?TOOLS.length:TOOLS.filter(t=>t.cat===c.id).length;
-    return`<button class="filter-btn ${c.id===activeFilter?'active':''}" onclick="setFilter('${c.id}')">${c.label}</button>`;
+    return`<button class="filter-btn ${c.id===activeFilter?'active':''}" onclick="setFilter('${c.id}')">${c.label} (${count})</button>`;
   }).join('');
 }
 
