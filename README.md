@@ -1,6 +1,8 @@
 # Dev Toolkit
 
-**100 free browser-based developer tools. No npm, no build step, no signup, no tracking.**
+[![GitHub stars](https://img.shields.io/github/stars/yurukusa/dev-toolkit?style=social)](https://github.com/yurukusa/dev-toolkit)
+
+**440+ free browser-based developer tools. No npm, no build step, no signup, no tracking.**
 
 [**Open Dev Toolkit →**](https://yurukusa.github.io/dev-toolkit/)
 
