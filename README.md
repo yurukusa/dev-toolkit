@@ -107,6 +107,7 @@ Every tool is a standalone HTML file. View source — it's all there. Works offl
 | [IP Info](https://yurukusa.github.io/ip-info/) | Your IP, geolocation, ISP |
 | [Meta Tags](https://yurukusa.github.io/meta-tags/) | OG/Twitter meta tag generator |
 | [QR Code](https://yurukusa.github.io/qr-code/) | Generate QR codes |
+| [CoreTechX](https://www.jslet.com/) | 51 client-side infrastructure calculators — DNS propagation, K8s pod density, container resource limits, DB connection pools, Docker pull time, CI queue time, Cron frequency, CDN offload, VPN overhead, latency budget, SLA economics |
 
 ### Writing & Analytics (17)
 
